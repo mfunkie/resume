@@ -44,7 +44,7 @@ module.exports = {
     }],
 
     loaders: [{
-      test: /\.jsx$/,
+      test: /\.(jsx|js)$/,
       loader: 'jsx-loader?harmony'
     }, {
       test: /\.css$/,
@@ -53,7 +53,7 @@ module.exports = {
       test: /\.less/,
       loader: 'style-loader!css-loader!less-loader'
     }, {
-      test: /\.(png|jpg)$/,
+      test: /\.(png|jpg|eot)$/,
       loader: 'url-loader?limit=8192'
     }]
   }

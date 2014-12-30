@@ -1,0 +1,31 @@
+@import (reference) 'mixins.less';
+@import (reference) 'variables.less';
+
+.company-card {
+  background-color: white;
+  .box-shadow(@card-shadow);
+
+  height: 160px;
+  width:  550px;
+
+  margin: 16px;
+}
+
+.company-card__image {
+  float: left;
+  width: 160px;
+  height: 160px;
+}
+
+.company-card__info {
+  margin-left: 160px;
+  text-align: right;
+
+  > h1 {
+    margin: 0px;
+    font-weight: 300;
+  }
+
+  height: 160px;
+  padding: 16px;
+}

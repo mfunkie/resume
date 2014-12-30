@@ -5,21 +5,21 @@
 'use strict';
 
 var React = require('react/addons');
+var Header = require('./Header');
+var Experience = require('./Experience');
 
-
-require('../../styles/Main.less');
-
+require('../../../node_modules/purecss/pure.css')
+require('../../styles/main.less');
 
 var Main = React.createClass({
   render: function () {
     return (
         <div>
-          <p>Content for Main</p>
+          <Header />
+          <Experience />
         </div>
       );
   }
 });
 
 module.exports = Main;
-
-

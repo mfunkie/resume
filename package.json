@@ -10,6 +10,7 @@
   "mainInput": "ResumeApp",
   "mainOutput": "main",
   "dependencies": {
+    "purecss": "^0.5.0",
     "react": "^0.12.2"
   },
   "devDependencies": {

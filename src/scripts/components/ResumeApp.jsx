@@ -12,7 +12,6 @@ var ReactTransitionGroup = React.addons.TransitionGroup;
 
 // CSS
 require('../../styles/normalize.css');
-require('../../styles/main.css');
 
 // Components
 var Main = require('./Main');

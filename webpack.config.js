@@ -37,7 +37,7 @@ module.exports = {
       loader: 'jshint'
     }],
     loaders: [{
-      test: /\.jsx$/,
+      test: /\.(jsx|js)$/,
       loader: 'react-hot!jsx-loader?harmony'
     }, {
       test: /\.less/,
@@ -46,7 +46,7 @@ module.exports = {
       test: /\.css$/,
       loader: 'style-loader!css-loader'
     }, {
-      test: /\.(png|jpg)$/,
+      test: /\.(png|jpg|eot)$/,
       loader: 'url-loader?limit=8192'
     }]
   },

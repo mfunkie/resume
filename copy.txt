@@ -1,0 +1,77 @@
+Specialties: Javascript, Front End Performance, React, Angular.JS, Node, Grunt, Gulp, Webpack
+
+
+
+Mark Funk
+380 Stonewall Ct Apt 7202 Mount Pleasant, SC 29464
+T 843 593-1337 mfunk86@gmail.com
+
+
+
+
+Senior Software Engineer 2008- Blackbaud, Inc. Charleston, South Carolina
+
+• Participated as an active member in a scrum team using rapid development to produce
+new and iterative features of software on time reliably.
+• Developed ticketing software from the initial development stages to the release to clients.
+• Created pages for ticketing software utilizing an internal platform that uses XML and SQL
+on the server-side, and HTML, CSS, and Javascript on the client-side.
+• Served as a mentor and lead engineer on the build team for all next generation products for the
+company.
+• Wrote utilities for patching and releasing software.
+
+
+
+Extra blah blah
+• Wrote utilities to handle the conversion from Visual Studio 2008 to 2010 and the .NET
+Framework 3.5 to 4.0 for over one thousand source-controlled project files. These utilities proved to be re-usable to alter large amounts of project files when build structure changes needed to be enacted.
+• Supported product releases with source control branching and maintaining control over the patching process for all developers.
+• Altered the build and wrote utilities to automate aspects of the patch process with a shorter turnaround time for patching that resulted in a much larger amount of patches released in the span of one year.
+• Upgraded all builds and build machines to support the upgrade to TFS 2012.
+
+
+· Participated as an active member in a scrum team using rapid development to produce new and iterative features of software on time on a constant basis.
+· Involved with the creation of ticketing software from initial development stages to the release to clients.
+· Created forms for ticketing software utilizing an internal platform that uses XML and SQL on the server-side, and HTML, CSS, and Javascript for the user interface.
+· Developed a business process used to detect duplicate constituents in a database supporting up to one million constituents tested.
+
+· Wrote utilities to handle the conversion to the latest version of Visual Studio and the .NET Framework for over one thousand source-controlled project files.  These utilities proved to be re-usable to alter large amounts of project files when build structure changes needed to be enacted.
+· Supported product releases with source control branching and maintaining control over the patching process for all developers.
+· Altered the build and wrote utilities to automate aspects of the patch process with a shorter turnaround time for patching that resulted in a much larger amount of patches released in the span of one year.
+· Restructured the nightly build process to separate building from deployment which de-coupled different products from each other.  This allowed these products to have their own build processes while still having the benefit of consuming the Platform on which all of these products are built.
+· Upgraded all builds and build machines to support the upgrade to TFS 2012.
+
+
+
+Education
+Computer Science, Bachelor of Science 3.26 GPA
+Clemson University, Clemson, SC May 2008
+• Worked in a team to produce a motion-controlled based sky diving game, using C#.
+• Developed a compiler for a lisp-based functional language, using Ruby.
+
+Technologies
+Proficient in
+Javascript, ES6, React.js, Angular.js, Gulp, Grunt, Webpack, CSS3, LESS, HTML5
+C#, .NET, SQL Server, IIS, TFS
+Experience with
+Java, Ruby, Python, PowerShell
+
+
+BoomTownROI
+
+Senior Interaction Engineer on BoomTown's CRM team.
+
+Co-maintainer of the Pattern Library for the CRM
+
+Provided training on Angular.js for the CRM team as we adopted it to the platform.
+
+Wrote the front-end of Best Fit Leads 2.0 using Angular.js. Engineered several re-usable directives and services during the development of Best-Fit Leads to make future projects easier to build.
+
+Developed and maintained the build tools for all Angular features in the CRM using Grunt, Bower, and npm.
+
+Worked on the 3rd Party Lead Integration tool that allows agents and brokers to manage all of their leads in one place.
+
+
+Blackbaud:
+
+Infinity Developer:
