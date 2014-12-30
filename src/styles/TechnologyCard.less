@@ -1,0 +1,46 @@
+@import (reference) 'mixins.less';
+@import (reference) 'variables.less';
+
+.card.technology-card {
+  height: 80px;
+  min-width: 250px;
+  display: inline-block;
+  color: @text-color;
+
+  transition: opacity 200ms ease-in, transform 200ms ease-in;
+}
+
+.technology-card__image {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+
+.technology-card__info {
+  position: relative;
+  margin-left: 80px;
+
+  > h2 {
+    margin: 0px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  height: 80px;
+  padding: 16px;
+}
+
+
+
+.technology-card-enter {
+  opacity: 0.01;
+  transform: translateX(-5px);
+}
+
+.technology-card-enter-active {
+  opacity: 1;
+  transform: translateX(0px);
+}
