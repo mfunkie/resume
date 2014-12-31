@@ -69,6 +69,10 @@ var ExperienceBoomTown = React.createClass({
         technologyWebsite='http://lesscss.org/'
         technologyIcon='less'/>,
       <TechnologyCard
+        title='CSS3'
+        technologyWebsite='http://www.w3.org/'
+        technologyIcon='css3'/>,
+      <TechnologyCard
         title='asp.net'
         technologyWebsite='http://www.asp.net'
         technologyIcon='visualstudio'/>,

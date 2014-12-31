@@ -12,7 +12,7 @@ new and iterative features of software on time reliably.
 on the server-side, and HTML, CSS, and Javascript on the client-side.
 • Served as a mentor and lead engineer on the build team for all next generation products for the
 company.
-• Wrote utilities for patching and releasing software.
+• Wrote utilities for patching and releasing software, significantly reducing the time to release a patch.
 
 
 
