@@ -98,6 +98,13 @@ module.exports = function (grunt) {
           ]
         }]
       }
+    },
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
     }
   });
 
@@ -115,4 +122,6 @@ module.exports = function (grunt) {
   grunt.registerTask('build', ['clean', 'copy', 'webpack']);
 
   grunt.registerTask('default', []);
+
+  grunt.registerTask('website', ['build', 'gh-pages']);
 };
