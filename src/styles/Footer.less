@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'mixins';
+
+.footer {
+  .clearfix();
+  background-color: @header-background-color;
+  width: 100%;
+  font-weight: 300;
+  color: white;
+
+  > div {
+    margin: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.details {
+  float: right;
+  text-align: right;
+  font-size: 14px;
+}
+
+.address {
+
+}
+
+.address__city {
+  > a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.contact {
+  margin-top: 16px;
+  a {
+    color: white;
+  }
+}
