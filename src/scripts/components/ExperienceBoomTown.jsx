@@ -79,7 +79,6 @@ var ExperienceBoomTown = React.createClass({
             endDate='Current'/>
         </div>
         <div className='pure-u-1 pure-u-xl-2-3'>
-          <h1 className='experience-header'>Description</h1>
           <ExperienceCard>
             <ul className='experience-description'>
               {boomTownItems.map((item, index) => {

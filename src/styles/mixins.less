@@ -10,3 +10,14 @@
   -ms-transform: 		 @string;
   -o-transform: 		 @string;
 }
+
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

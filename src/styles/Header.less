@@ -1,16 +1,19 @@
 @import 'variables';
+@import 'mixins';
 
 .header {
-  background-color: white;
+  .clearfix();
+
+  background-color: @header-background-color;
   .box-shadow(@card-shadow);
-  max-width: 100%;
-  margin: 16px;
+  width: 100%;
 
   font-weight: 300;
+  color: white;
 
   > div {
     display: inline-block;
-    margin-left: 16px;
+    margin: 16px;
   }
 
   h1 {
@@ -22,6 +25,12 @@
   }
 }
 
+.details {
+  float: right;
+  text-align: right;
+  font-size: 14px;
+}
+
 .address {
 
 }
@@ -29,10 +38,13 @@
 .address__city {
   > a {
     text-decoration: none;
-    color: @text-color;
+    color: white;
   }
 }
 
 .contact {
   margin-top: 16px;
+  a {
+    color: white;
+  }
 }
