@@ -88,7 +88,9 @@ var ExperienceBoomTown = React.createClass({
             </ul>
           </ExperienceCard>
           <h1 className='experience-header'>Technologies</h1>
-          {technologyCards}
+          <div className='technology-card-list'>
+            {technologyCards}
+          </div>
         </div>
       </div>
     );
