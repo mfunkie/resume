@@ -2,25 +2,39 @@
 @import (reference) 'variables.less';
 
 .card.technology-card {
-  height: 80px;
-  min-width: 250px;
+  height: 40px;
+  min-width: 150px;
   display: inline-block;
   color: @text-color;
-
-  transition: opacity 200ms ease-in, transform 200ms ease-in;
+  margin-right: 8px;
 }
 
 .technology-card__image {
   float: left;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
+}
+
+.technology-card__icon {
+  float: left;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  position: relative;
+
+  > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .technology-card__info {
   position: relative;
-  margin-left: 80px;
+  margin-left: 40px;
 
-  > h2 {
+  > h3 {
     margin: 0px;
     font-weight: 300;
     position: absolute;
@@ -29,18 +43,37 @@
     transform: translateY(-50%) translateX(-50%);
   }
 
-  height: 80px;
-  padding: 16px;
+  height: 40px;
+  padding: 8px;
 }
 
-
-
-.technology-card-enter {
-  opacity: 0.01;
-  transform: translateX(-5px);
+/* Specific Icons */
+.technology-card__icon-angular {
+  background-color: @angular-red;
+  color: white;
 }
 
-.technology-card-enter-active {
-  opacity: 1;
-  transform: translateX(0px);
+.technology-card__icon-gulp {
+  background-color: @gulp-red;
+  color: white;
+}
+
+.technology-card__icon-npm {
+  background-color: @npm-red;
+  color: white;
+}
+
+.technology-card__icon-bower {
+  background-color: @bower-yellow;
+  color: white;
+}
+
+.technology-card__icon-less {
+  background-color: @less-blue;
+  color: white;
+}
+
+.technology-card__icon-nodejs_small {
+  background-color: @node-green;
+  color: white;
 }

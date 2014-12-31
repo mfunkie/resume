@@ -11,7 +11,7 @@ var ExperienceBlackbaud = React.createClass({
   render: function () {
     return (
       <div className='pure-g'>
-        <div className='pure-u-1-3'>
+        <div className='pure-u-1 pure-u-xl-1-3'>
           <CompanyCard
             title='Senior Software Engineer'
             company='Blackbaud'
@@ -20,7 +20,7 @@ var ExperienceBlackbaud = React.createClass({
             startDate='June, 2008'
             endDate='March, 2013'/>
         </div>
-        <div className='pure-u-2-3'>
+        <div className='pure-u-1 pure-u-xl-2-3'>
         </div>
       </div>
     );

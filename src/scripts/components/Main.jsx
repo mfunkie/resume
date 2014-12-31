@@ -8,7 +8,8 @@ var React = require('react/addons');
 var Header = require('./Header');
 var Experience = require('./Experience');
 
-require('../../../node_modules/purecss/pure.css')
+require('../../../node_modules/purecss/pure.css');
+require('../../../node_modules/purecss/grids-responsive.css');
 require('../../styles/main.less');
 
 var Main = React.createClass({

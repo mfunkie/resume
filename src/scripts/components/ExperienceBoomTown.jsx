@@ -10,18 +10,25 @@ var TechnologyCard = require('./TechnologyCard');
 
 var boomTownImage   = require('../../images/boomtownroi.png');
 var javascriptImage = require('../../images/javascript.png');
-var angularImage    = require('../../images/angular.png');
-var gulpImage       = require('../../images/gulp.png');
 
 var boomTownItems = [
-'Senior Interaction Engineer on BoomTown\'s CRM team.',
 'Co-maintainer of the Pattern Library for the CRM',
 'Tuned features in the CRM for front-end performance.',
 'Provided training on Angular.js for the CRM team.',
-'Wrote the front-end of Best Fit Leads 2.0 using Angular.js. Engineered several re-usable directives and services during the development of Best-Fit Leads to make future projects easier to build.',
-'Developed and maintained the build tools for all Angular features in the CRM using Gulp, Bower, and npm.',
+'Engineered several re-usable components and services to make future projects easier to build.',
+'Developed and maintained the build tools for all Angular features in the CRM.',
 'Worked on a Lead Integration tool that consumes emails from third parties and creates Leads in the database.'
 ];
+
+/*
+Conceptualize and implement application features, both consumer facing and product based
+Ensure the delivery of a rich and responsive user experience
+Be a proactive member of an autonomous, cross-disciplined, mission and goal driven Product development team
+Thrive in a fast-paced and collaborative environment, solving unique technical challenges
+Continually research and learn the latest techniques and best practices for UI development and performance
+- See more at: http://boomtownroi.simplicant.com/jobs/17478-ui-engineer-front-end/detail#sthash.kyOArKy3.dpuf
+
+*/
 
 var ExperienceBoomTown = React.createClass({
   render: function () {
@@ -37,16 +44,32 @@ var ExperienceBoomTown = React.createClass({
       <TechnologyCard
         title='Angular'
         technologyWebsite='http://www.angularjs.org'
-        technologyImage={angularImage}/>,
+        technologyIcon='angular'/>,
+      <TechnologyCard
+        title='node.js'
+        technologyWebsite='http://nodejs.org'
+        technologyIcon='nodejs_small'/>,
       <TechnologyCard
         title='Gulp'
         technologyWebsite='http://gulpjs.com/'
-        technologyImage={gulpImage}/>
+        technologyIcon='gulp'/>,
+      <TechnologyCard
+        title='npm'
+        technologyWebsite='http://npmjs.org/'
+        technologyIcon='npm'/>,
+      <TechnologyCard
+        title='Bower'
+        technologyWebsite='http://bower.io/'
+        technologyIcon='bower'/>,
+      <TechnologyCard
+        title='Less'
+        technologyWebsite='http://lesscss.org/'
+        technologyIcon='less'/>
     ];
 
     return (
       <div className='pure-g'>
-        <div className='pure-u-1-3'>
+        <div className='pure-u-1 pure-u-xl-1-3'>
           <CompanyCard
             title='Senior Software Engineer'
             company='BoomTownROI'
@@ -55,7 +78,7 @@ var ExperienceBoomTown = React.createClass({
             startDate='March, 2013'
             endDate='Current'/>
         </div>
-        <div className='pure-u-2-3'>
+        <div className='pure-u-1 pure-u-xl-2-3'>
           <h1 className='experience-header'>Description</h1>
           <ExperienceCard>
             <ul className='experience-description'>
@@ -65,9 +88,7 @@ var ExperienceBoomTown = React.createClass({
             </ul>
           </ExperienceCard>
           <h1 className='experience-header'>Technologies</h1>
-          <ReactCSSTransitionGroup transitionName='technology-card' transitionLeave={false}>
-            {technologyCards}
-          </ReactCSSTransitionGroup>
+          {technologyCards}
         </div>
       </div>
     );

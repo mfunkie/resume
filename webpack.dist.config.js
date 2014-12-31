@@ -53,7 +53,7 @@ module.exports = {
       test: /\.less/,
       loader: 'style-loader!css-loader!less-loader'
     }, {
-      test: /\.(png|jpg|eot)$/,
+      test: /\.(woff|svg|png|jpg|eot|ttf)/,
       loader: 'url-loader?limit=8192'
     }]
   }
