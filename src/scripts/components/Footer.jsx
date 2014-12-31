@@ -14,6 +14,11 @@ var Footer = React.createClass({
   render: function () {
     return (
       <div className='footer'>
+        <div className='footer__contact'>
+          <a target='_blank'
+            href='http://www.github.com/mfunkie'
+            className='devicons devicons-github_full' />
+        </div>
         <div className='details'>
           <div className='address'>
             <div className='address__street'>380 Stonewall Ct. Apt 7202</div>
