@@ -3,6 +3,7 @@
 var React = require('react/addons');
 var Header = require('./Header');
 var Experience = require('./Experience');
+var Education  = require('./Education');
 var Footer = require('./Footer');
 
 require('../../../node_modules/purecss/grids.css');
@@ -15,6 +16,7 @@ var Main = React.createClass({
         <div>
           <Header />
           <Experience />
+          <Education />
           <Footer />
         </div>
       );

@@ -3,7 +3,7 @@
 var React = require('react/addons');
 
 var CompanyCard    = require('./CompanyCard');
-var ExperienceCard = require('./ExperienceCard');
+var DetailCard     = require('./DetailCard');
 
 var blackbaudImage  = require('../../images/blackbaud.png');
 

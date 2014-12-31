@@ -5,7 +5,7 @@ var React = require('react/addons');
 var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 var CompanyCard    = require('./CompanyCard');
-var ExperienceCard = require('./ExperienceCard');
+var DetailCard = require('./DetailCard');
 var TechnologyCard = require('./TechnologyCard');
 
 var boomTownImage   = require('../../images/boomtownroi.png');
@@ -67,7 +67,15 @@ var ExperienceBoomTown = React.createClass({
       <TechnologyCard
         title='Less'
         technologyWebsite='http://lesscss.org/'
-        technologyIcon='less'/>
+        technologyIcon='less'/>,
+      <TechnologyCard
+        title='asp.net'
+        technologyWebsite='http://www.asp.net'
+        technologyIcon='visualstudio'/>,
+      <TechnologyCard
+        title='mssql'
+        technologyWebsite='http://www.microsoft.com/en-us/server-cloud/products/sql-server/'
+        technologyIcon='msql_server' />
     ];
 
     return (
@@ -82,13 +90,13 @@ var ExperienceBoomTown = React.createClass({
             endDate='Current'/>
         </div>
         <div className='pure-u-1 pure-u-xl-2-3'>
-          <ExperienceCard>
-            <ul className='experience-description'>
+          <DetailCard>
+            <ul className='detail-description'>
               {boomTownItems.map((item, index) => {
-                return <li className='experience-description__item' key={index}>{item}</li>;
+                return <li className='detail-description__item' key={index}>{item}</li>;
               })}
             </ul>
-          </ExperienceCard>
+          </DetailCard>
           <h1 className='experience-header'>Technologies</h1>
           <div className='technology-card-list'>
             {technologyCards}

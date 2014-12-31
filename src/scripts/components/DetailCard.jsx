@@ -6,17 +6,17 @@
 
 var React = require('react/addons');
 
-require('../../styles/ExperienceCard.less');
+require('../../styles/DetailCard.less');
 
 
-var ExperienceCard = React.createClass({
+var DetailCard = React.createClass({
   render: function () {
     return (
-      <div className='card experience-card'>
+      <div className='card detail-card'>
         {this.props.children}
       </div>
     );
   }
 });
 
-module.exports = ExperienceCard;
+module.exports = DetailCard;

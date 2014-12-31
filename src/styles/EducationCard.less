@@ -1,0 +1,33 @@
+@import (reference) 'mixins.less';
+@import (reference) 'variables.less';
+
+.card.education-card {
+  height: 160px;
+  margin-bottom: 0px;
+}
+
+.education-card__image {
+  float: left;
+  width: 160px;
+  height: 160px;
+}
+
+.education-card__info {
+  margin-left: 160px;
+  text-align: right;
+  font-weight: 300;
+
+  > h2 {
+    margin: 0px;
+    font-weight: 300;
+  }
+
+  height: 160px;
+  padding: 16px;
+}
+
+@media screen and (max-width: 35.5em) {
+  .education-card__info > p {
+    display: none;
+  }
+}
