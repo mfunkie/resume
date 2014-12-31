@@ -19,17 +19,17 @@ var EducationCard = React.createClass({
 
   render: function () {
     return (
+      <a href={this.props.website} target='_blank'>
       <div className='card card-link education-card'>
         <div className='education-card__image'>
-          <a href={this.props.website}>
-            <img src={this.props.image}/>
-          </a>
+          <img src={this.props.image}/>
         </div>
         <div className='education-card__info'>
           <h2>{this.props.major}</h2>
           <p>{this.props.graduation}</p>
         </div>
       </div>
+      </a>
     );
   }
 });

@@ -21,17 +21,17 @@ var CompanyCard = React.createClass({
 
   render: function () {
     return (
+      <a href={this.props.companyWebsite} target='_blank'>
       <div className='card card-link company-card'>
         <div className='company-card__image'>
-          <a href={this.props.companyWebsite}>
-            <img src={this.props.companyImage}/>
-          </a>
+          <img src={this.props.companyImage}/>
         </div>
         <div className='company-card__info'>
           <h2>{this.props.title}</h2>
           <p>{this.props.startDate} - {this.props.endDate}</p>
         </div>
       </div>
+      </a>
     );
   }
 });
