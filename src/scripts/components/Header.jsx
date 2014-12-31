@@ -18,7 +18,7 @@ var Header = React.createClass({
           <h1>Mark Funk</h1>
         </div>
         <div className='description'>
-          <h2>Web Developer</h2>
+          <h3>Web Developer</h3>
         </div>
       </div>
     );
