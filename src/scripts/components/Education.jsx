@@ -39,9 +39,9 @@ var Education = React.createClass({
         </div>
         <div className='pure-u-1 pure-u-xl-2-3'>
           <DetailCard>
-            <ul className='detail-description'>
-              <li className='detail-description__item'>Worked in a team to produce a motion-controlled based sky diving game, using C#.</li>
-              <li className='detail-description__item'>Developed a compiler for a lisp-based functional language, using Ruby.</li>
+            <ul>
+              <li>Worked in a team to produce a motion-controlled based sky diving game, using C#.</li>
+              <li>Developed a compiler for a lisp-based functional language, using Ruby.</li>
             </ul>
           </DetailCard>
           <h1 className='experience-header'>Technologies</h1>

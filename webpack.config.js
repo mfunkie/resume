@@ -48,6 +48,9 @@ module.exports = {
     }, {
       test: /\.(woff|svg|png|jpg|eot|ttf)/,
       loader: 'url-loader?limit=8192'
+    }, {
+      test: /\.md/,
+      loader: 'html!markdown'
     }]
   },
 
